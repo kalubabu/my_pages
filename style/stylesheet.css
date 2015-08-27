@@ -1,0 +1,146 @@
+
+body{
+	font-family: sans-serif, verdana;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+.containt{
+	width: 1170px;
+	margin:0 auto;
+	background: #ccc;
+}
+header{
+	min-height: 60px;
+	text-align: center;
+	background:#fcfcfc;
+}
+.logo{
+	width:200px;
+	float: left;
+
+}
+.g-navigation{
+
+}
+.g-navigation ul li a{
+	float:left;
+	display: block;
+	font-size: 18px;
+	padding: 5px 15px;
+	background:#ccffcc;
+	margin:0 10px;
+	text-decoration: none;
+	opacity:1;
+	border-radius: 4px;
+	color:#fff;
+}
+.g-navigation ul li a:hover{
+	opacity:.7;
+	color:#ccc;
+
+}
+.main-container{
+	width:95%;
+	margin:0 auto;
+}
+.left-sidebar{
+	width:25%;
+	float:left;
+
+}
+article{
+	min-height: 150px;
+	background:#dcdcdc;
+	padding:5px 5px;
+	margin:6px 0px;
+	border-radius: 4px;
+
+}
+.widget-recent-news{
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+
+}
+.widget-recent-news ul li{
+}
+.widget-recent-news ul li a{
+	text-decoration: none;
+	color:#444;
+}
+.widget-recent-news ul li a:hover{
+	color:#ffccff;
+}
+
+.container{
+	width:72%;
+	float:right;
+	padding:10px 15px;
+}
+section{
+}
+.photo-collection {
+	height:450px;
+}
+.photo-collection ul li{
+	width:150px;
+	height:200px;
+	float:left;
+	margin:12px 5px;
+    background: #83848C;
+    border-radius: 6px;
+}
+section > h2{
+	font-weight: 600;
+	padding:10px 5px;
+	color:#afafaf;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+
+}
+.msg-detail{
+	min-height: 100px;
+	background: #B7E097 none repeat scroll 0% 0%;
+	color: #484957;
+	padding: 10px 5px;
+	font-size: 15px;
+	border-radius: 0px 50px;
+	box-shadow: 2px 5px 0 0 #fff;
+	margin-bottom: 20px;
+}
+
+.projects-detail{
+	width: 1170px;
+    margin: 0 auto;
+	clear:both;
+	padding: 10px 30px;
+}
+.projects-detail ul{
+	margin:10px 0px;
+}
+
+.projects-detail ul li{
+	float: left;
+    width: 31%;
+    background: #FFE98B;
+    margin: 0px 12px;
+    border-radius: 38px 0px;
+    box-shadow: 2px 2px 0px 0px #DCCA7B;
+    margin-bottom: 20px;
+}
+.projects-detail ul li > h5,
+.projects-detail ul li > h3{
+    padding: 5px 25px;
+    }
+
+.projects-detail ul li p{
+	color:red;
+	padding:0 30px;
+}
+
+footer{
+	clear:both;
+	height:80px;
+	background:#44cc44;
+}
