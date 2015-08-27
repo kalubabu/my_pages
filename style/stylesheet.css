@@ -7,8 +7,9 @@ body{
 }
 .containt{
 	width: 1170px;
-	margin:0 auto;
+	margin:30px auto;
 	background: #ccc;
+
 }
 header{
 	min-height: 60px;
@@ -20,14 +21,16 @@ header{
 	float: left;
 
 }
-.g-navigation{
-
+.g-navigation ul{
+	float: right;
+    padding: 13px 0;
+    width: 70%;
 }
 .g-navigation ul li a{
 	float:left;
 	display: block;
 	font-size: 18px;
-	padding: 5px 15px;
+	padding: 5px 20px;
 	background:#ccffcc;
 	margin:0 10px;
 	text-decoration: none;
